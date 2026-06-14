@@ -8,7 +8,7 @@ Projeto simples para tradução de textos de escolha do usuário.
 ## 🛠️ Tecnologias
 
 * **Linguagem:** Ruby
-* **Dependências:** Bundler e a biblioteca `dotenv`
+* **Dependências:** Bundler, biblioteca net/http e biblioteca json.
 
 ---
 
