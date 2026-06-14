@@ -1,7 +1,7 @@
 Markdown
-# 🚀 Nome do Projeto
+# 🚀 Tradutor Ruby
 
-Uma frase curta explicando o que este projeto faz (ex: "Script em Ruby para ler e processar dados de um arquivo").
+Projeto simples para tradução de textos de escolha do usuário.
 
 ---
 
