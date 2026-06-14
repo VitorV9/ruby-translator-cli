@@ -3,7 +3,7 @@ require 'json'
 require 'uri'
 
 class Translator
-    def incialize(text, from, to)
+    def initialize(text, from, to)
         @text = text
         @from = from
         @to = to
