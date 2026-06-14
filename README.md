@@ -8,7 +8,7 @@ Projeto simples para tradução de textos de escolha do usuário.
 ## 🛠️ Tecnologias
 
 * **Linguagem:** Ruby
-* **Dependências:** Bundler, biblioteca net/http e biblioteca json.
+* **Dependências:** Bundler, biblioteca net/http, biblioteca json e biblioteca uri.
 
 ---
 
