@@ -21,3 +21,17 @@ def translate
   end
   
 end
+
+def save_to_file
+    current_time = Time.now.strftime("%d-%m-%y_%H-%M")
+    filename = "#{current_time}.txt"
+
+    File.open(filename, 'w') do |file|
+      file.puts "--- Tradução Realizada em #{Time.now} ---"
+      file.puts "Texto Original (#{@from}): #{@text}"
+      file.puts "Texto Traduzido (#{@to}): #{@translated_text}"
+    end
+    
+    puts "Resultado salvo com sucesso no arquivo: #{filename}"
+  end
+end
