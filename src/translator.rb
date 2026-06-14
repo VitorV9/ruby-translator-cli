@@ -19,8 +19,6 @@ def translate
     @translated_text = dados_da_api["responseData"]["translatedText"]
     @translated_text
   end
-  
-end
 
 def save_to_file
     current_time = Time.now.strftime("%d-%m-%y_%H-%M")
